@@ -13,22 +13,25 @@ His current research focuses on **improving carbon nanotube based electronic dev
 
 **Email**: `bo_wang[at]zju.edu.cn`
 
-**Long-term Goal**：
+## **Long-term Goal**:
 
 To make electronics better from a materials and microstructures perspective.
 
 **Research Interests**:
 * Carbon Nanotube Devices
-* Arrayed Carbon Nanotube (A-CNT)
+* Low-dimensional semiconductor
 * Transmission Electron Microscopy
 
 **Selected publication**:
-1.  [link](https://pubs.acs.org/doi/full/10.1021/acsnano.4c07685) We establishes a comprehensive, 11-parameter framework based on high-resolution microscopy to systematically quantify the microstructural nonidealities in A-CNT deviecs:
-![Paper2]({{ "/images/paper2.png" | relative_url }}){: width="800px"}
+1.  [link](https://pubs.acs.org/doi/full/10.1021/acsnano.4c07685) We establish a comprehensive, 11-parameter framework based on high-resolution microscopy to systematically quantify the microstructural nonidealities in A-CNT devices:
 
-2.  [link](https://pubs.acs.org/doi/full/10.1021/acsnano.2c10007) We reval mechanism hindering the realization of A-CNT N-FETs:
+<br>
+![Paper2]({{ "/images/paper2.png" | relative_url }}){: .center-image width="500px"}
 
-![Paper1]({{ "/images/Liupaper.png" | relative_url }}){: width="500px"}
+2.  [link](https://pubs.acs.org/doi/full/10.1021/acsnano.2c10007) We reveal the mechanism hindering the realization of A-CNT N-FETs:
+
+<br>
+![Paper1]({{ "/images/Liupaper.png" | relative_url }}){: .center-image width="400px"}
 
 
 

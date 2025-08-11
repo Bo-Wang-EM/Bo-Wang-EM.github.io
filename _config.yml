@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default"
+site_theme               : "dark"
 title                    : "Bo Wang's Academic Page"
 title_separator          : "-"
 name                     : &name "Bo Wang(汪博)"
@@ -229,6 +229,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  scripts:
+    output: true
+    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -286,7 +289,15 @@ defaults:
       layout: talk
       author_profile: true
       share: true
-
+      
+  # Add this new block for scripts
+  - scope:
+      path: ""
+      type: scripts
+    values:
+      layout: single
+      author_profile: true
+      share: true
 
 # Sass/SCSS
 sass:
@@ -356,3 +367,8 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+# Jekyll-Scholar configuration
+scholar:
+  sort_by: year
+  order: descending

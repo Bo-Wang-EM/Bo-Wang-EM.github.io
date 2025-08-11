@@ -22,10 +22,14 @@ main:
         
   - title: "Blog Posts"
     url: /year-archive/
+
+  - title: "Scripts"
+    url: /scripts/
     
   - title: "CV"
     url: /cv/
-    
+
+
   # - title: "CV"
   #   url: /cv-json/
     
