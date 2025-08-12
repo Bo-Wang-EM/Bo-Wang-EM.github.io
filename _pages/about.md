@@ -15,7 +15,8 @@ His current research focuses on **improving carbon nanotube based electronic dev
 
 ## **Long-term Goal**:
 
-To make electronics better from a materials and microstructures perspective.
+<span class="text-orange">Advancing nano-electronic device performance and reliability by fundamentally understanding and controlling material microstructures.</span>
+
 
 **Research Interests**:
 * Carbon Nanotube Devices
@@ -23,12 +24,12 @@ To make electronics better from a materials and microstructures perspective.
 * Transmission Electron Microscopy
 
 **Selected publication**:
-1.  [link](https://pubs.acs.org/doi/full/10.1021/acsnano.4c07685) We establish a comprehensive, 11-parameter framework based on high-resolution microscopy to systematically quantify the microstructural nonidealities in A-CNT devices:
+[link](https://pubs.acs.org/doi/full/10.1021/acsnano.4c07685) We establish a comprehensive, 11-parameter framework based on high-resolution microscopy to systematically quantify the microstructural nonidealities in A-CNT devices:
 
 <br>
 ![Paper2]({{ "/images/paper2.png" | relative_url }}){: .center-image width="500px"}
 
-2.  [link](https://pubs.acs.org/doi/full/10.1021/acsnano.2c10007) We reveal the mechanism hindering the realization of A-CNT N-FETs:
+ [link](https://pubs.acs.org/doi/full/10.1021/acsnano.2c10007) We reveal the mechanism hindering the realization of A-CNT N-FETs:
 
 <br>
 ![Paper1]({{ "/images/Liupaper.png" | relative_url }}){: .center-image width="400px"}
