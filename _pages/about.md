@@ -7,20 +7,19 @@ redirect_from:
   - /about.html
 ---
 
-Bo Wang (汪博) is a postdoctoral researcher in [Prof. Chuanhong Jin's group](https://sites.google.com/site/chhjin/home) at Zhejiang University. He received his Ph.D. in Materials Science from the same institution under the supervision of Prof. Chuanhong Jin.
-
-His current research focuses on **improving carbon nanotube based electronic device performance** by **quantitative analysis of materials and interface** using advanced transmission electron microscopy (TEM). 
+Bo Wang (汪博) is an independent researcher based in Shanghai. From September 2024 to November 2026 he was a postdoctoral researcher in [Prof. Chuanhong Jin's group](https://sites.google.com/site/chhjin/home) at Zhejiang University, where he also received his Ph.D. in Materials Science under the supervision of Prof. Chuanhong Jin.
 
 **Email**: `bo_wang[at]zju.edu.cn`
 
 ## **Long-term Goal**:
 
-<span class="text-orange">Advancing nano-electronic device performance and reliability by fundamentally understanding and controlling material microstructures.</span>
+<span class="text-orange">Advancing nano-electronic devices and integrated circuits by fundamentally understanding and controlling material microstructures.</span>
 
 
 **Research Interests**:
 * Carbon Nanotube Devices
 * Low-dimensional semiconductor
+* Metrology for Semiconductors
 * Transmission Electron Microscopy
 
 **Selected publication**:

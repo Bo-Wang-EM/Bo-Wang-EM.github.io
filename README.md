@@ -1,6 +1,8 @@
 # Academic Pages
 **Academic Pages is a GitHub Pages template for personal and professional portfolio-oriented websites.**
 
+> 本地调试与发布流程（中文）见 [WORKFLOW.md](WORKFLOW.md)：`scripts\setup.ps1` 准备环境、`scripts\dev.ps1` 本地预览、`scripts\publish.ps1` 校验并上传。
+
 ![Academic Pages template example](images/homepage.png "Academic Pages template example")
 
 # Getting Started

@@ -17,8 +17,8 @@ Education
 
 Work Experience
 ======
-* 2024.9-present: Postdoctoral Researcher
-  * Zhejiang University 
+* 2024.9-2026.11: Postdoctoral Researcher
+  * Zhejiang University, Hangzhou
   * Research focus: Advanced Electron microscopy and semiconductor device analysis
   * Collaborator: Prof. Chuanhong Jin
 
@@ -37,6 +37,8 @@ Publications
 * Lu, Haozhe, Bo Wang, Yichen Li, Panpan Zhang, Qingyun Lin, Xiaoming Ma, Zhiyong Zhang, and Chuanhong Jin. "Unveiling Metal–CNT Interfacial Wetting and Coverage in Aligned Carbon Nanotube Array-Based Field Effect Transistors." *Nano Letters* 25, no.25 (2025): 10233-10239. <i class="fas fa-star"></i>
 
 * Zhang, Zhichun, Yi Chen, Peiyue Shen, Jiajun Chen, Sen Wang, Bo Wang, Saiqun Ma et al. "Homochiral carbon nanotube van der Waals crystals." *Science* 387, no. 6740 (2025): 1310-1316. <i class="fas fa-star"></i>
+
+* Yang, Yingjun, Haijie Chen, Haozhe Lu, Hongshan Xiao, Bo Wang, Chuanhong Jin, Lian-Mao Peng, and Zhiyong Zhang. "Complementary Metal–Oxide–Semiconductor Integrated Circuits Based on Aligned Carbon Nanotubes." *ACS Nano* 19, no. 25 (2025): 23177-23185.
 
 * Ze, Yumeng, Yifan Liu, Bo Wang, Huimin Yin, Chuanhong Jin, and Zhiyong Zhang. "Carbon nanotube materials for future integrated circuit applications." *Materials Today* 79 (2024): 97-111.
 

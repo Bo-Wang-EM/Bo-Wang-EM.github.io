@@ -25,9 +25,9 @@ author:
   avatar           : "profile.png"
   name             : "Bo Wang (汪博)"
   pronouns         : # example: "she/her"  
-  bio              : "Postdoctoral researcher at Zhejiang University."
-  location         : "HangZhou, China"
-  employer         : "Zhejiang University"
+  bio              : "Independent researcher."
+  location         : "Shanghai, China"
+  employer         : "Independent Researcher"
   uri              : # URL
   email            : "Bo_Wang[at]zju.edu.cn" # email address - this will be obfuscated in the HTML source code to prevent spam bots from harvesting it
 
@@ -303,6 +303,15 @@ defaults:
 sass:
   sass_dir: _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  # 主题自带的 _sass/vendor（susy、breakpoint）用了已弃用的 Sass 语法，
+  # 这些警告不影响产物，本地点调用时会把日志刷屏，这里统一静音。
+  quiet_deps: true
+  silence_deprecations:
+    - import
+    - global-builtin
+    - slash-div
+    - if-function
+    - color-functions
 
 
 # Outputting
@@ -319,7 +328,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-redirect-from
-  - jemoji
+  # - jemoji   # 依赖 nokogiri，Windows ARM64 无预编译包；恢复需同步 Gemfile
   - jekyll-scholar
 
 # Mimic GitHub Pages with --safe
@@ -329,7 +338,6 @@ whitelist:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-redirect-from
-  - jemoji
 
 
 # Archives
