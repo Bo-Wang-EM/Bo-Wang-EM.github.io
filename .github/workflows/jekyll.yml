@@ -29,7 +29,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1' # 您可以选择一个合适的 Ruby 版本
+          ruby-version: '3.4' # 与本地开发环境保持一致
           bundler-cache: true # --path vendor/bundle
       - name: Setup Pages
         id: pages

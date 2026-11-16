@@ -163,10 +163,10 @@ git config --local --unset http.proxy                  # 或者直连
 
 **③ `bundle install` 报证书 / 连接失败**
 
-Gemfile 里的 `https://gems.ruby-china.com` 在当前网络不可达。脚本已用镜像映射绕过（不改 Gemfile、不影响线上构建）。手动设置：
+Gemfile 现在用官方源 `https://rubygems.org`（GitHub Actions 能直连）。本机网络访问官方源较慢或不稳，脚本只在本机把它映射到清华 TUNA 镜像，**Gemfile 保持官方源不变，线上构建因此不受影响**。手动设置：
 
 ```powershell
-bundle config set --local mirror.https://gems.ruby-china.com https://mirrors.tuna.tsinghua.edu.cn/rubygems/
+bundle config set --local mirror.https://rubygems.org https://mirrors.tuna.tsinghua.edu.cn/rubygems/
 ```
 
 **④ 关于 `jemoji`（已移除）**

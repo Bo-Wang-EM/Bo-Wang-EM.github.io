@@ -1,4 +1,4 @@
-﻿<#
+<#
 .SYNOPSIS
     一次性准备本地 Jekyll 调试环境（Windows / Ruby 3.1+）。
 
@@ -56,11 +56,13 @@ Write-Step "2/5 配置 Bundler（依赖装在仓库内，不污染用户目录�
 Invoke-Bundle @('config', 'set', '--local', 'path', 'vendor/bundle') | Out-Null
 Invoke-Bundle @('config', 'set', '--local', 'bin', '.bundle/bin') | Out-Null
 if ($GemMirror) {
-    # Gemfile 里声明的源在部分网络下不可达；这里只做本机镜像映射，不改动 Gemfile
-    Invoke-Bundle @('config', 'set', '--local', 'mirror.https://gems.ruby-china.com', $GemMirror) | Out-Null
+    # Gemfile 里写的是官方源（GitHub Actions 能直连）；本机网络访问官方源不稳，这里只做本机镜像映射，不改动 Gemfile
+    Invoke-Bundle @('config', 'set', '--local', 'mirror.https://rubygems.org', $GemMirror) | Out-Null
+    Invoke-Bundle @('config', 'unset', '--local', 'mirror.https://gems.ruby-china.com') -AllowFailure | Out-Null
     Write-Ok "RubyGems 镜像：$GemMirror"
 }
 else {
+    Invoke-Bundle @('config', 'unset', '--local', 'mirror.https://rubygems.org') -AllowFailure | Out-Null
     Invoke-Bundle @('config', 'unset', '--local', 'mirror.https://gems.ruby-china.com') -AllowFailure | Out-Null
     Write-Ok "RubyGems 直连 Gemfile 声明的源"
 }
